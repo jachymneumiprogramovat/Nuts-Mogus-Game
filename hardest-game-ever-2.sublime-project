@@ -1,0 +1,23 @@
+{
+    // This section should be present already
+    "folders":
+    [
+        {
+            "path": "/home/tesserekt/source/repos/gevo/hardest-game-ever-2",
+        }
+    ],
+    // Add this whole section if not present or just the LSP settings
+    "settings": {
+        "LSP": {
+            "pylsp": {
+                "enabled": true,
+                "command": [
+                    "/home/tesserekt/.local/share/virtualenvs/hardest-game-ever-2-pS3f6Pfd/bin/pylsp",
+                ],
+                "settings": {
+                    "pylsp.plugins.flake8.executable": "/home/tesserekt/.local/share/virtualenvs/hardest-game-ever-2-pS3f6Pfd/bin/flake8",
+                },
+            },
+        },
+    },
+}
